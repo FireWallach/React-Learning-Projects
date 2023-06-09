@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.nav-bar > h3 {
+  margin-left: auto;
+  margin-right: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.nav-bar > img {
+  width: 31.31px;
+  height: 26.22px;
+  left: 20px;
+  top: 19px;
+  margin-left: 20px;
+  margin-right: 7px;
+}
+
+.title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+
+  color: #ffffff;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.inputs > input {
+  width: 40em;
+  height: 35px;
+  border-radius: 8px;
+  flex: 1;
+  margin: 30px;
+  border: #d6d4d8 2px solid;
+  font-family: Karla;
+  text-indent: 5px;
+}
+
+.submitButton {
+  margin: 0 30px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+  height: 40px;
+  width: 71em;
+  border: 0;
+  cursor: pointer;
+}
